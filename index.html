@@ -47,10 +47,10 @@
                     VROOM
                 </h1>
 
-
-                <a href="#" class="btn">
-                    Каталог
-                </a>
+                <form action="script.php">
+                    <input type="submit" value="Каталог" class="btn">
+                    </input>
+                </form>
             </div>
         </div>
     </div>
@@ -87,7 +87,7 @@
                         <img src="img/pin.svg" alt="">
                     </div>
                     <h4 class="info__title">
-                        г. Киров, ул. Ленина, 24
+                        г.Киров, ул.Ленина, 24
                     </h4>
                 </div>
             </div>
@@ -101,7 +101,7 @@
 
 <section class="section">
     <div class="container">
-        <h2 class="block__title">
+        <h2 id="Catalog" class="block__title">
             Каталог товаров
         </h2>
         <a href="#" class="block__link">
@@ -300,20 +300,20 @@
 <section class="contacts">
     <div class="container">
         <h2 class="block__title text-white">
-            Contact us
+            Свяжитесь с нами
         </h2>
         <form class="contacts__form" action="">
             <div class="form__row">
                 <div class="form__group">
                     <input type="text" class="input"  placeholder=" ">
                     <label for="" class="label">
-                        Name
+                        Имя
                     </label>
                 </div>
                 <div class="form__group">
                     <input type="text" class="input" placeholder=" ">
                     <label for="" class="label">
-                        Last name
+                        Фамилия
                     </label>
                 </div>
             </div>
@@ -322,28 +322,20 @@
                 <div class="form__group">
                     <input type="email" class="input" placeholder=" ">
                     <label for="" class="label">
-                        Email
+                        E-mail
                     </label>
                 </div>
                 <div class="form__group">
                     <input type="tel" class="input" placeholder=" ">
                     <label for="" class="label">
-                        Phone
+                        Телефон
                     </label>
                 </div>
             </div>
             <!--/form__row-->
-            <div class="form__row">
-                <div class="form__group">
-                    <textarea class="textarea" placeholder=" " name=""></textarea>
-                    <label for="" class="label">
-                        Message
-                    </label>
-                </div>
-            </div>
             <!--/form__row-->
             <button class="btn text-upper" type="submit">
-                Send
+                Отправить
             </button>
         </form>
         <!--/contact__form-->
